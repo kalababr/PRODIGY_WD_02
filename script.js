@@ -7,7 +7,7 @@ const startBtn = document.getElementById("startBtn");
 const pauseBtn = document.getElementById("pauseBtn");
 const resetBtn = document.getElementById("resetBtn");
 const lapBtn = document.getElementById("lapBtn");
-const lapList = document.getElementById("lapList");
+const lapList = document.getElementById("laps");
 
 function startTimer() {
     if (!running) {
